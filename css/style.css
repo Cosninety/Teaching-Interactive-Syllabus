@@ -1,0 +1,50 @@
+html, body{
+    margin:0;
+    padding:0;
+  }
+  
+  #sideBar{
+    height:100vh;
+    width:20vw;
+    position:absolute;
+    top: 0;
+    background-color:yellow;
+  }
+  
+  #biblio{
+    position: absolute;
+    bottom:0;
+  }
+  
+  .sidebarText{
+    padding-left:2vw !important;
+  }
+  
+
+  
+  td,th {
+    border: 1px solid #ddd;
+  }
+  
+  table{
+      /* width: 75vw; */
+      /* margin-left:20vw; */
+      border-collapse: collapse;
+      /* margin: 2vh 2vh 2vh 22vw; */
+  }
+  
+  .main{
+    width: 75vw;
+    margin: 2vh 2vh 2vh 22vw;
+}
+
+
+  /* #oddDay{
+    background-color: cyan;
+  } */
+  
+  .oddDay{
+    background-color: grey;
+  }
+  
+  
