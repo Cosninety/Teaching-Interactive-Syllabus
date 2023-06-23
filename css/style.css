@@ -1,50 +1,74 @@
-html, body{
-    margin:0;
-    padding:0;
-  }
-  
-  #sideBar{
-    height:100vh;
-    width:20vw;
-    position:absolute;
-    top: 0;
-    background-color:yellow;
-  }
-  
-  #biblio{
-    position: absolute;
-    bottom:0;
-  }
-  
-  .sidebarText{
-    padding-left:2vw !important;
-  }
-  
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #07172b;
+  overflow: hidden;
+  font-family: ChakraPetch;
+}
 
-  
-  td,th {
-    border: 1px solid #ddd;
-  }
-  
-  table{
-      /* width: 75vw; */
-      /* margin-left:20vw; */
-      border-collapse: collapse;
-      /* margin: 2vh 2vh 2vh 22vw; */
-  }
-  
-  .main{
-    width: 75vw;
-    margin: 2vh 2vh 2vh 22vw;
+#sideBar {
+  z-index: 1;
+  height: 100vh;
+  width: 35vw;
+  position: absolute;
+  top: 0;
+  background:#07172b;
+}
+
+#biblio {
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+}
+
+.sidebarText{
+  padding: 5px;
+  color: #d6d3d1;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.ref .sidebarText:hover {
+  color: #7992f5;
 }
 
 
-  /* #oddDay{
-    background-color: cyan;
-  } */
-  
-  .oddDay{
-    background-color: grey;
-  }
-  
-  
+td,
+th {
+  border: 1px solid #ddd;
+}
+
+table {
+  /* width: 75vw; */
+  /* margin-left:20vw; */
+  border-collapse: collapse;
+  /* margin: 2vh 2vh 2vh 22vw; */
+}
+
+.main {
+  width: 70vw;
+  margin: 2vh 2vh 2vh 2vw;
+}
+
+.infoGroup{
+  overflow-y: scroll !important;
+  overflow-x: hidden;
+  margin: 2vh 2vh 2vh 23vw;
+  width: 75%;
+  position: relative;
+  z-index: 5;
+ max-height: 95vh;
+}
+
+.oddDay {
+  background-color: grey;
+}
+
+@font-face {
+  font-family: ChakraPetch;
+  src: url(../media/ChakraPetch-Medium.ttf);
+}
