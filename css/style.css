@@ -2,18 +2,33 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background-color: #07172b;
+  background-color: #01060c;
   overflow: hidden;
   font-family: ChakraPetch;
 }
 
+
+.temporary{
+  padding: 20%;
+  margin: auto;
+  text-align: center;
+}
+
+#active{
+  color: #7992f5 !important;
+}
+
+
 #sideBar {
+  margin-top: 0;
+  margin-left: 15px;
   z-index: 1;
   height: 100vh;
-  width: 35vw;
+  width: 25vw;
   position: absolute;
+  display: block;
   top: 0;
-  background:#07172b;
+  background:#01060c;
 }
 
 #biblio {
@@ -26,6 +41,11 @@ body {
   padding: 5px;
   color: #d6d3d1;
   margin: 0;
+}
+
+
+#logo:hover{
+  text-decoration:underline #7992f5;
 }
 
 a{
@@ -54,8 +74,22 @@ table {
   margin: 2vh 2vh 2vh 2vw;
 }
 
+.infomain {
+  margin: 5px;
+  padding: 12px;
+transform: translateX(35%);
+  max-height: 95vh;
+  max-width: 60%;
+  font-family: ChakraPetch;
+  color: #d6d3d1;
+  overflow:auto;
+  overflow-x: hidden;
+  position: relative;
+  z-index: 5;
+}
+
 .infoGroup{
-  overflow-y: scroll !important;
+  overflow:auto;
   overflow-x: hidden;
   margin: 2vh 2vh 2vh 23vw;
   width: 75%;
